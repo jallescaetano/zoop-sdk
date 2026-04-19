@@ -1,3 +1,6 @@
 .idea/
-vendor/
-public/
+/vendor/
+/storage/data/
+.env
+.DS_Store
+*.log
