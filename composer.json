@@ -1,37 +1,20 @@
 {
-    "name": "italodeveloper/zoop-sdk",
-    "description": "SDK de pagamentos Zoop",
+    "name": "church/communication-system",
+    "description": "Sistema de comunicação para igrejas via WhatsApp",
     "license": "MIT",
     "type": "library",
-    "keywords": [
-        "italodeveloper",
-        "zoop",
-        "payment",
-        "gateway "
-    ],
-    "authors": [
-        {
-            "name": "Ítalo Araújo",
-            "email": "italoaraujo@gmail.com"
-        }
-    ],
-    "config": {
-        "optimize-autoloader": true
-    },
     "require": {
-        "php": ">=5.5",
+        "php": ">=8.0",
         "ext-curl": "*",
         "ext-json": "*",
-        "psr/log": "^1.1",
-        "guzzlehttp/guzzle": ">=6.2",
-        "italodeveloper/guzzle-zend": "^1.2"
-    },
-    "require-dev": {
-        "zendframework/zend-http": ">=2.5"
+        "guzzlehttp/guzzle": "^7.0"
     },
     "autoload": {
         "psr-4": {
-            "Zoop\\": "src/"
+            "Church\\": "src/"
         }
+    },
+    "config": {
+        "optimize-autoloader": true
     }
 }
